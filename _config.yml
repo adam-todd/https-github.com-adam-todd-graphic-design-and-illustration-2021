@@ -1,0 +1,31 @@
+title: Arts School
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+base_url: "http://127.0.0.1:4000/"
+#base_url: "http://graphics-lsad.co.uk/2021/"
+url: "http://graphics-lsad.co.uk/2021/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Site source
+source: src
+
+# Site bundle dir
+destination: public
+
+collections:
+  pages:
+    output: true
+sass:
+  sass_dir: _scss
+  style: :compressed
+
+#plugins:
+#  - jekyll-sitemap
+
+markdown: kramdown

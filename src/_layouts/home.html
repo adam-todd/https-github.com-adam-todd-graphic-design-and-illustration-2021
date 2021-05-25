@@ -1,0 +1,56 @@
+{% include head.html %}
+
+  <body class="bg-pink">
+
+    {% include menu.html %}
+
+    <div class="container">
+      <header>
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              {% include header.html %}
+            </div>
+          </div>
+        </header>
+        <main id="main">
+        <div class="row">
+          <div id="intro" class="col mt-3">
+            {{page.content | markdownify}}
+        </div>
+      </div>
+    </main>
+    <footer>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+          {% include footer.html %}
+    </div>
+    </div>
+    </footer>
+  </div>
+  <script>
+    $( document ).ready(function() {
+      shuffleElements();
+      //hideElements(4);
+
+      $("#menu").hide();
+
+      $( "#menu-button" ).click(function() {
+        openMenu();
+      });
+      hideElements();
+
+      $("#intro > p:gt(0)").hide();
+
+      setInterval(function() {
+        $('#intro > p:first')
+        .hide()
+        .next()
+        .fadeIn(500)
+        .end()
+        .appendTo('#intro');
+      }, 20000);
+    })
+
+  </script>
+  </body>
+</html>

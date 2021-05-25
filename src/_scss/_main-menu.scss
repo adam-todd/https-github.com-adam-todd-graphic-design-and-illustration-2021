@@ -1,0 +1,60 @@
+.main-menu{
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  //background-color: red;
+  //height: 100%;
+  //width: 100%;;
+  //position: absolute;; /* Stay in place */
+  //display:flex;
+//  z-index: 1; /* Sit on top */
+  //left: 0;
+  //top: 0;
+  //overflow-x: hidden; /* Disable horizontal scroll */
+  //transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+
+  //position: fixed;  /*Sit on top of the page content */
+  //width: 100%; /* Full width (cover the whole page) */
+  //height: 100%;  /*Full height (cover the whole page) */
+  //top: 0;
+  //left: 0;
+  //right: 0;
+  //bottom: 0;
+  //z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  //cursor: pointer; /* Add a pointer on hover */
+  //overflow-y:scroll;
+  //overflow-x:hidden;
+
+
+  ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+
+  li{
+    margin:0;
+    padding:0;
+
+  }
+
+  .menuitem{
+    display: inline-block;
+  }
+}
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+.menu-icon{
+  background: no-repeat url("../images/menu-icon.png");
+  display:block;
+  cursor:pointer;
+  width:42px;
+  height:42px;
+}
+.close-icon{
+  background: no-repeat url("../images/close-icon.png");
+}

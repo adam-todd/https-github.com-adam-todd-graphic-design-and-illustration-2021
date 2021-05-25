@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'tex_gyre_herosregular';
+    src: url('fonts/texgyreheros-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tex_gyre_herosbold';
+    src: url('fonts/texgyreheros-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EditorialNew-Ultralight';
+    src: url('fonts/EditorialNew-Ultralight.woff2') format('woff2'),
+         url('fonts/EditorialNew-Ultralight.woff') format('woff'),
+         url('fonts/EditorialNew-Ultralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tex_gyre_heros_cnregular';
+    src: url('fonts/texgyreheroscn-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tex_gyre_heros_cnbold';
+    src: url('fonts/texgyreheroscn-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@mixin texGyreHerosCnBold() {
+  font-family:'tex_gyre_heros_cnbold', sans-serif;
+}
+@mixin texGyreHerosCnRegular() {
+  font-family:'tex_gyre_heros_cnregular', sans-serif;
+}
+@mixin teXGyreHerosRegular() {
+  font-family:'tex_gyre_herosregular', sans-serif;
+}
+@mixin teXGyreHerosBold() {
+  font-family:'tex_gyre_herosbold', sans-serif;
+}
+@mixin editorialNewUltralight() {
+  font-family:'EditorialNew-Ultralight', sans-serif;
+}
+
+/* -----------------------------------------------------------------------------*/
+html {
+  font-size: 16px;
+}
+body {
+
+  color: $black;
+}
+
+#menu{
+  @include texGyreHerosCnRegular();
+  text-transform:uppercase;
+  font-size: remCalc(24pt);
+  line-height: remCalc(27pt);
+  min-height: 800px;
+a{
+    color: $black;
+    text-decoration: none;
+    &.selected{
+      @include texGyreHerosCnBold();
+    }
+    &:hover{
+      text-decoration: underline;
+      color: $black;
+    }
+  }
+}
+#intro{
+  @include texGyreHerosCnRegular();
+  text-transform:uppercase;
+  font-size: remCalc(36pt);
+  line-height: remCalc(38pt);
+
+}
+main{
+  @include editorialNewUltralight();
+  font-size: remCalc(16pt);
+  line-height: remCalc(23pt);
+  min-height: 800px;
+  .indent{
+    text-indent:remCalc(64px);
+  }
+  a{
+    @include texGyreHerosCnBold();
+    text-transform:uppercase;
+    color: $black;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+      color: $black;
+    }
+  }
+  p{
+    margin-bottom: .5em;
+  }
+}
+em{
+  @include texGyreHerosCnRegular();
+  font-style: normal;
+  font-weight: normal;
+}
+strong{
+  @include texGyreHerosCnBold();
+  text-transform:uppercase;
+  font-style: normal;
+  font-weight: normal;
+}
+.name{
+  text-transform:none;
+}
+li{
+  display:inline;
+}
+h1, h2, h3 {
+  @include texGyreHerosCnRegular();
+
+}
+h1, .h1, h2, .h2, h3, .h3{
+  font-size: remCalc(16pt);
+}
+
+h1, .h1, h2, .h2 {
+  text-transform: uppercase;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  h1, .h1, h2, .h2, h3, .h3{
+    font-size: remCalc(32pt);
+  }
+  #menu{
+    font-size: remCalc(48pt);
+    line-height: remCalc(54pt);
+    min-height: 320px;
+  }
+  #intro {
+    font-size: remCalc(96pt);
+    line-height: remCalc(104pt);
+  }
+  main{
+    font-size: remCalc(32pt);
+    line-height: remCalc(46pt);
+    min-height: 320px;
+    .indent{
+        text-indent:remCalc(128px);
+      }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+/* -----------------------------------------------------------------------------*/

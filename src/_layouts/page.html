@@ -1,0 +1,67 @@
+{% include head.html %}
+
+  <body id="page">
+
+    {% include menu.html %}
+
+    <div class="container">
+      <header>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+              {% include header.html %}
+            </div>
+          </div>
+        </header>
+        <main id="main">
+        <div class="row">
+          <div class="col mt-3">
+            {{page.content | markdownify}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mt-3">
+          {% for student in site.data.navigation %}
+                {% if page.url contains student.link %}
+                  {% if forloop.last %}
+                    {% assign p = forloop.index | minus:2 %}
+                    {% assign previous_student = site.data.navigation[p]%}
+                    {% assign next_student = site.data.navigation[0]%}
+                {%else%}
+                    {% assign p = forloop.index | minus:2 %}
+                    {% assign n = forloop.index %}
+                    {% assign previous_student = site.data.navigation[p]%}
+                    {% assign next_student = site.data.navigation[n]%}
+                  {% endif%}
+
+                  <div class="pt-3">
+                    <strong>Next: </strong><a href="{{site.base_url}}{{next_student.link}}">{{next_student.name}}</a>
+                    <br />
+                    <strong>Previous: </strong><a href="{{site.base_url}}{{previous_student.link}}">{{previous_student.name}}</a>
+                    </div>
+                  {% break %}
+                {% endif%}
+              {% endfor%}
+        </div>
+      </div>
+
+    </main>
+    <footer>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+          {% include footer.html %}
+    </div>
+    </div>
+    </footer>
+  </div>
+  <script>
+
+    $( document ).ready(function() {
+      $("#menu").hide();
+      $( "#menu-button" ).click(function() {
+        openMenu();
+      });
+    })
+  </script>
+
+  </body>
+</html>
