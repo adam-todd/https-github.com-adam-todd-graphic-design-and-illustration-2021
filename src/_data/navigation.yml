@@ -1,6 +1,6 @@
 
-# - name: Daniel Bolton
-#   link: toby-beattie/
+- name: Daniel Bolton
+  link: daniel-bolton/
 - name: Toby Beattie
   link: toby-beattie/
 - name: Amber Blair-Keyes
@@ -25,14 +25,14 @@
   link: raife-cooper/
 - name: Freya Crawford
   link: freya-crawford/
-# - name: Lucy Dodd-Martin
-#   link: toby-beattie/
+- name: Lucy Martin
+  link: lucy-martin/
 - name: Oliver Dolan
   link: oliver-dolan/
 - name: Evie Edwards
   link: evie-edwards/
-# - name: Jesse Ellison
-#   link: toby-beattie/
+- name: Jesse Ellison
+  link: jesse-ellison/
 - name: Jess Fairhurst
   link: jessica-fairhurst/
 - name: Emma Field
@@ -41,14 +41,14 @@
   link: ella-griffiths/
 - name: Helen Hale
   link: helen-hale/
-# - name: Nicole Hanlon
-#   link: toby-beattie/
+- name: Nicole Hanlon
+  link: nicole-hanlon/
 - name: Jamie Holligan
   link: jamie-holligan/
 - name: Megan Holz
   link: megan-holz/
-# - name: Ariane Hughes
-#   link: toby-beattie/
+- name: Ariane Hughes
+  link: ariane-hughes/
 - name: Aron Jones
   link: aron-jones/
 - name: Sophie Keatley
@@ -79,8 +79,8 @@
   link: shep-morgan/
 - name: Rammie Motlek
   link: rammie-motlek/
-# - name: Charlie Payne-Woolridge
-#   link: toby-beattie/
+- name: Charlie Payne-Woolridge
+  link: charlie-payne-woolridge
 - name: Morgan Phillips
   link: morgan-phillips/
 - name: Erin Rose
@@ -89,8 +89,8 @@
   link: rose-ryan/
 - name: Natasha Salthouse
   link: natasha-salthouse/
-# - name: Hollie Schultz-Hebborn
-#   link: toby-beattie/
+- name: Hollie Schultz
+  link: hollie-schultz/
 - name: Olivia Spencer
   link: olivia-spencer/
 - name: Andrea Stables

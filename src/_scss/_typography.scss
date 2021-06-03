@@ -52,10 +52,8 @@ html {
   font-size: 16px;
 }
 body {
-
   color: $black;
 }
-
 #menu{
   @include texGyreHerosCnRegular();
   text-transform:uppercase;

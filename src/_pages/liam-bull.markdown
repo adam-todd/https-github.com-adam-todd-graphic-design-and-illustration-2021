@@ -18,4 +18,4 @@ This re-branding project was influenced by the closure of one of my favourite ba
 
 ![Mock-up photograph of framed cocktail menu poster in situ in bar](../images/liam_bull_04.jpg "Mock-up design"){:.img-fluid}
 
-![Animated gif of montaged illustration](../images/liam_bull_05.gif "Animated gif"){:.img-fluid}
+![Animated gif of montaged illustration](../images/liam_bull_05.gif "Animated gif"){:.img-fluid .image-w}

@@ -4,7 +4,7 @@ title: Jessica Fairhurst
 permalink: jessica-fairhurst/
 ---
 <div class="ratio ratio-16x9 mb-3">
-  <iframe title="This Is Alex" class="embed-responsive-item" src="https://player.vimeo.com/video/553928688" allow="autoplay; fullscreen" allowfullscreen></iframe>  
+  <iframe title="This Is Alex" class="embed-responsive-item" src="https://player.vimeo.com/video/557655283" allow="autoplay; fullscreen" allowfullscreen></iframe>  
 </div>
 ## Jessica Fairhurst
 {:.d-inline}
