@@ -11,7 +11,7 @@ Laura Parke (Programme Leader) — Ian Mitchell (Level 6 Coordinator) — Cecili
 {:.indent}
 As ever a special thank you to all the alumni and guests that have contributed to the experience of the class of 2021 — This year’s 3rd Year Guest Tutors: Rachel Davey, Kate Gibb, Sana Iqbal, Alys Mordecai (Smiling Wolf), Mike Pinnington (The Double Negative), James Quail (Dorothy), Pete Thomas, Emma Warren and Tracy Worrall — Alumni careers event panel members: Rachel Davey, Katy Monti, Sana Iqbal, Kay Dale, Josh Parkin, Kieran Wilde — Visiting Lecturers: Andre Anderson, Derek Brazell (AOI), Malcolm Garrett,  William Goldsmith, Jonny Hannah, Jolene Lloyd Jones (Snyder NYC), Sarah Massini, Rose Nordin and John Rooney — Everyone Everywhere Conference Speakers — Amanda Baeza, BankTM, Jonathan Barnbrook, Chloe Bertron, Heath Bunting, Seb Burke (Risolve), Bekki Guyatt (Little Brown), Jeffrey Lewis, Marcus Maddox, Filipe Magalhães (Fala Atelier), Sam Meech, Pali Palavathanan (Templo), Michelle Thompson, Aude Van Ryn and Sam Wiehl
 {:.indent}
-_COPYRIGHT © LIVERPOOL SCHOOL OF ART & DESIGN 2021_  
+_COPYRIGHT © LJMU 2021_  
 _GRAPHIC DESIGN & ILLUSTRATION_  
 _LIVERPOOL SCHOOL OF ART & DESIGN_  
 [@GRAPHICS_LSAD](https://www.instagram.com/graphics_lsad/)
