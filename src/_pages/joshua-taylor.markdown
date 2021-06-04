@@ -14,7 +14,7 @@ A publication that aims to show how much the Covid 19 pandemic has not only affe
 
 ![Mock-up of a publication spread showing a pull quote, can the game continue without supporters](../images/josh_taylor_02.jpg "Publication design artwork"){:.img-fluid}
 
-[!Mock-up of a publication spread showing text and photographic images](../images/josh_taylor_03.jpg "Publication design artwork"){:.img-fluid}
+![Mock-up of a publication spread showing text and photographic images](../images/josh_taylor_03.jpg "Publication design artwork"){:.img-fluid}
 
 ![Mock-up of a publication spread showing text and photographic images](../images/josh_taylor_04.jpg "Publication design artwork"){:.img-fluid}
 

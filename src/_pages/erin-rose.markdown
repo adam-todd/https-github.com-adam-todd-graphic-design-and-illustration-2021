@@ -14,7 +14,7 @@ A branding project for a beauty line concept. The project includes social media,
 
 ![Visual identity applied to packaging design for eyeshadow palette](../images/erin_stanton_02.jpg "Brand visual identity designs"){:.img-fluid}
 
-[!Visual identity applied to packaging design for tinted moisteriser](../images/erin_stanton_03.jpg "Brand visual identity designs"){:.img-fluid}
+![Visual identity applied to packaging design for tinted moisteriser](../images/erin_stanton_03.jpg "Brand visual identity designs"){:.img-fluid}
 
 ![Packaging net for eyeshadow palette box](../images/erin_stanton_04.jpg "Brand visual identity designs"){:.img-fluid}
 

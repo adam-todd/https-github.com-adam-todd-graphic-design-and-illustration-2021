@@ -3,7 +3,7 @@ layout: page
 title: Eleanor Trussell
 permalink: eleanor-trussell/
 ---
-![4 digital artworks featuring illustrated fairy characters](../images/trussell_ellie_01.png "Concept artwork"){:.img-fluid}
+![Publication cover artwork featuring illustrated mushrooms and the title Seasonal Fairies](../images/trussell_ellie_01.png "Concept artwork"){:.img-fluid}
 ## Eleanor Trussell
 {:.d-inline}
 ### Seasonal Fairies

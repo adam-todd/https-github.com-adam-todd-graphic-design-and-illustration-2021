@@ -1,0 +1,28 @@
+{% include head.html %}
+
+  <body class="bg-pink">
+    <div class="container">
+      <header>
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              {% include header.html %}
+            </div>
+          </div>
+        </header>
+        <main id="main">
+        <div class="row">
+          <div id="intro" class="col mt-3">
+            {{page.content | markdownify}}
+        </div>
+      </div>
+    </main>
+    <footer>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+          {% include footer.html %}
+    </div>
+    </div>
+    </footer>
+  </div>
+  </body>
+</html>

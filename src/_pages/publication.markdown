@@ -10,6 +10,7 @@ permalink: publication/
 {:.d-inline}
 This year’s publication presents, in no particular order three distinct yet interconnected sections: editorial production meetings auto-transcribed by zoom; discussion pieces concerned with the culture of education; and student artwork documenting places, spaces and cultures. Contributors — Emma Warren (Author, Broadcaster and Educator) — Rose Nordin (Graphic Designer, Illustrator and Educator, Co-Founder One of My Kind OOMK) —
 Andre Anderson (Graphic Designer and Educator, Founder and Headmaster of Freedom & Balance — Laura Parke (Graphic Artist and Educator, Programme Leader BA(Hons) Graphic Design and Illustration)
+{:.indent}
 
 The 128pp publication has been risograph printed by Sunday’s Print Service on 115gsm Context Natural and 160gsm Colaraction Tropic paper, in one colour, spiral bound.
 
@@ -30,6 +31,4 @@ _2 DUCKINFIELD STREET_
 _LIVERPOOL L3 5RD_  
 _EDITED BY IAN MITCHELL AND LAURA PARKE_  
 _ART DIRECTION BY TOM ROGERS AND LIDDY LEONARD_  
-
-[instagram.com/graphics_lsad](https://www.instagram.com/graphics_lsad/)  
 [studioeditions.co.uk](http://www.studioeditions.co.uk)
