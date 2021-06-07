@@ -54,6 +54,9 @@ html {
 body {
   color: $black;
 }
+button{
+  border:none;
+}
 #menu{
   @include texGyreHerosCnRegular();
   text-transform:uppercase;

@@ -1,16 +1,18 @@
 <div class="container">
 <nav  class="main-menu">
-<div class="mt-3">
-  <a href="#" id="menu-button" class="menu-icon"><span class="sr-only">Menu</span></a>
-  </div>
-    <ul id="menu" role="menu" aria-labelledby="menu-button" class="mt-3">
+  <div class="menu_button mt-3">
+    <button id="menubutton" aria-controls="menu" aria-haspopup="true" class="menu-icon">
+       <span class="sr-only">Menu</span>
+    </button>
+   </div>
+    <ul id="menu" role="menu" aria-labelledby="menubutton" class="mt-3">
       {% if page.title == "Home" %}
-          <li><a class="menu-item selected" href="{{ site.base_url }}">Home</a><span> &mdash;</span></li>
+          <li role="none"><a role="menuitem" class="menu-item selected" href="{{ site.base_url }}">Home</a><span> &mdash;</span></li>
       {% else%}
-          <li><a class="menu-item" href="{{ site.base_url }}">Home</a><span> &mdash;</span></li>
+          <li role="none"><a role="menuitem" class="menu-item" href="{{ site.base_url }}">Home</a><span> &mdash;</span></li>
       {% endif %}
-          <li><a class="menu-item" data-tag="A-Z" href="#">A-Z</a><span> &mdash;</span></li>
-          <li><a class="menu-item" data-tag="Random" href="#">Random</a><span> &mdash;</span></li>
+          <li role="none"><a role="menuitem" class="menu-item" data-tag="A-Z" href="#">A-Z</a><span> &mdash;</span></li>
+          <li role="none"><a role="menuitem" class="menu-item" data-tag="Random" href="#">Random</a><span> &mdash;</span></li>
       {% for item in site.data.navigation %}
         {% assign my_array = item.name | split:" " %}
 
@@ -25,14 +27,20 @@
         {% endif %}
         {% if page.permalink == item.link and found != true %}
             {% assign found = true %}
-            <li><a class="menu-item student selected" href="{{ site.base_url }}{{ item.link }}">{{  myString }}</a><span> &mdash;</span></li>
+            <li role="none"><a role="menuitem" class="menu-item student selected" href="{{ site.base_url }}{{ item.link }}">{{  myString }}</a><span> &mdash;</span></li>
         {% else%}
-            <li><a class="menu-item student" href="{{ site.base_url }}{{ item.link }}">{{  myString }}</a><span> &mdash;</span></li>
+            <li role="none"><a role="menuitem" class="menu-item student" href="{{ site.base_url }}{{ item.link }}">{{  myString }}</a><span> &mdash;</span></li>
         {% endif %}
       {% endfor %}
-        <li><a class="menu-item" href="{{ site.base_url }}credits/">Credits</a><span> &mdash;</span></li>
-        <li><a class="menu-item" href="{{ site.base_url }}publication/">Publication</a><span> &mdash;</span></li>
-        <li><a class="menu-item" href="https://www.ljmu.ac.uk/about-us/faculties/faculty-of-arts-professional-and-social-studies/liverpool-school-of-art-and-design">Liverpool Art School</a><span></span></li>
-      </ul>
-</nav>
-</div>
+        <li role="none"><a role="menuitem" class="menu-item" href="{{ site.base_url }}credits/">Credits</a><span> &mdash;</span></li>
+        <li role="none"><a role="menuitem" class="menu-item" href="{{ site.base_url }}publication/">Publication</a><span> &mdash;</span></li>
+        <li role="none"><a role="menuitem" class="menu-item" href="https://www.ljmu.ac.uk/about-us/faculties/faculty-of-arts-professional-and-social-studies/liverpool-school-of-art-and-design">Liverpool Art School</a><span></span></li>
+    </ul>
+    </nav>
+  </div>
+<script type="text/javascript">
+   window.onload=function() {
+   var menubutton = new Menubutton(document.getElementById('menubutton'));
+   menubutton.init();
+ }
+ </script>

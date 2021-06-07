@@ -4,11 +4,13 @@ function openMenu() {
     $("#menu").show();
     $("#main").hide();
     $("#menu-button").addClass("close-icon");
+    $("#menubutton").addClass("close-icon");
     $("#page").addClass("bg-pink");
   } else {
     $("#menu").hide();
     $("#main").show();
     $("#menu-button").removeClass("close-icon");
+    $("#menubutton").removeClass("close-icon");
     $("#page").removeClass("bg-pink");
   }
 }
