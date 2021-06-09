@@ -220,6 +220,8 @@ PopupMenuLinks.prototype.open = function () {
   this.controller.domNode.setAttribute('aria-expanded', 'true');
   var element = document.getElementById("menubutton");
   element.classList.add("close-icon");
+  var element = document.getElementById("page");
+  element.classList.add("bg-pink");
 };
 
 PopupMenuLinks.prototype.close = function (force) {
@@ -229,5 +231,7 @@ PopupMenuLinks.prototype.close = function (force) {
     this.controller.domNode.removeAttribute('aria-expanded');
     var element = document.getElementById("menubutton");
     element.classList.remove("close-icon");
+    var element = document.getElementById("page");
+    element.classList.remove("bg-pink");
   }
 };
